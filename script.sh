@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ключ result 
+# Ключ result: 
 result_url="https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey=YourApiKeyToken"
 
 # Выполнение HTTP-запроса и извлечение значения 'result'
@@ -11,7 +11,7 @@ result_10=$(printf "%d" "$result")
 
 echo Значение result:$result_10
 
-# Ключ height
+# Ключ height:
 height_url="https://api.blockcypher.com/v1/eth/main"
 
 # Выполнение HTTP-запроса и извлечение значения 'height'

@@ -14,7 +14,7 @@ RUN apt-get update && \
 # Клонируем репозиторий Dogecoin
 RUN git clone https://github.com/dogecoin/dogecoin.git
 
-# Переходим в рабочую директорию проекта и выполняем сборку проекта
+# Переходим в рабочую директорию проекта и выполним сборку проекта
 WORKDIR /dogecoin
 RUN ./autogen.sh && \
     ./configure && \
